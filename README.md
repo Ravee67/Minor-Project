@@ -79,6 +79,72 @@ Computed Body Mass Index (BMI) for all female participants.
 
 Added BMI as an eighth column to the female data matrix.
 
+Task 6: Standardisation of Female Dataset
+
+Created a new matrix named zfemale.
+
+Standardised all columns of the female dataset by computing z-scores for each variable.
+
+Task 7: Scatterplot Matrix and Correlation Analysis
+
+Drew a scatterplot matrix (pairplot) for the standardised female variables:
+
+Height
+
+Weight
+
+Waist circumference
+
+Hip circumference
+
+BMI
+
+Computed Pearson’s and Spearman’s correlation coefficients for all pairs of these variables.
+
+Interpreted the observed relationships and correlation strengths.
+
+Task 8: Waist-Based Ratio Calculations
+
+Computed the following ratios for both male and female participants:
+
+Waist-to-height ratio
+
+Waist-to-hip ratio
+
+Added these ratios as two additional columns to the male and female matrices.
+
+Task 9: Ratio Comparison Using Boxplots
+
+Created a box-and-whisker plot with four boxes side by side:
+
+Female waist-to-height ratio
+
+Male waist-to-height ratio
+
+Female waist-to-hip ratio
+
+Male waist-to-hip ratio
+
+Compared the distributions and explained the observed differences.
+
+Task 10: Comparison of Anthropometric Indicators
+
+Listed advantages and disadvantages of the following body composition measures:
+
+Body Mass Index (BMI)
+
+Waist-to-height ratio
+
+Waist-to-hip ratio
+
+Task 11: Extreme BMI Analysis
+
+Identified the 5 female participants with the lowest BMI and the 5 with the highest BMI.
+
+Printed the standardised body measurements for these 10 participants using numpy.argsort on BMI values.
+
+Interpreted the differences in body proportions based on standardised measurements.
+
 Notebook Requirements
 
 The notebook is divided into clearly labeled sections.
